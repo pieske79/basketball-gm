@@ -7,7 +7,7 @@ import { DataTable, NewWindowLink } from "../components";
 const PowerRankings = ({ teams }) => {
     setTitle("Power Rankings");
 
-    const cols = getCols("O", "P", "T", "Team", "W", "L", "L10", "MOV");
+    const cols = getCols("O", "P", "69", "Team", "W", "L", "L10", "MOV");
     cols[3].width = "100%";
 
     const rows = teams.map(t => {
